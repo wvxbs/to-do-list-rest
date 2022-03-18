@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wvxbs/to-do-list-rest/issues"
   },
-  "homepage": "https://github.com/wvxbs/to-do-list-rest#readme"
+  "homepage": "https://github.com/wvxbs/to-do-list-rest#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
