@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wvxbs/to-do-list-rest#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "ip": "^1.1.5"
   }
 }
