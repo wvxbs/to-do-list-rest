@@ -7,4 +7,4 @@ COPY . .
 EXPOSE 3001
 RUN chown -R node /app/api
 USER node
-CMD ["node", "index.js"]
+CMD ["npm", "run",  "prod"]
