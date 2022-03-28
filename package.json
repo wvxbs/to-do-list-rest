@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run watch",
+    "watch": "nodemon Server.js --ignore public",
+    "prod": "node Server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,10 @@
   },
   "homepage": "https://github.com/wvxbs/to-do-list-rest#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "ip": "^1.1.5"
+    "ip": "^1.1.5",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15"
   }
 }
