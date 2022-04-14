@@ -19,7 +19,7 @@ var TaskSchema = mongoose.Schema({
         required: true,
         default: new Date()
     },
-    limitDate: {
+    limit_date: {
         type: Date,
         required: false,
     },
