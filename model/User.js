@@ -14,19 +14,18 @@ var UserSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    creation_date: {
+    email: {
+        type: String,
+        required: true
+    },
+    profile_picture: {
+        type: Date,
+        required: false,
+    },
+    registration_date: {
         type: Date,
         required: true,
         default: new Date()
-    },
-    limitDate: {
-        type: Date,
-        required: false,
-    },
-    color: {
-        type: String,
-        required: false,
-        default: ""
     }
 })
 

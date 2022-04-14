@@ -10,7 +10,7 @@ var TaskListSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    priority: {
+    color: {
         type: String,
         required: true
     },
@@ -19,11 +19,11 @@ var TaskListSchema = mongoose.Schema({
         required: true,
         default: new Date()
     },
-    limitDate: {
+    icon: {
         type: Date,
         required: false,
     },
-    color: {
+    completed_tasks: {
         type: String,
         required: false,
         default: ""
